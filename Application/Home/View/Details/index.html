@@ -18,111 +18,150 @@
 </div>
 <!---------------------------------内页导航---end------------------------------------>
 <!-------------------------------header----end---------------------------------------->
-
 <!-------------------------------container-------------------------------------------->
-<div class="container">
+<div class="container" style="margin: 30px auto;">
 	<div class="mbIntro">
-        <div class="mbBox clearfix">
-            <img class="mbBoxI" src="__PUBLIC__/site/img/mbItro.jpg">
-            <div class="mbBoxT">	
-                <p>
-                    成品网站是通过对各行各业网站的细分研究，由专业人员经过精心策划、设计和制作，做好大量现成网站，在网站超市分类展示并打包出售。每个成品网站的设计风格、栏目布局规划、测试内容都参照该行业的实际网站需求和案例来进行制作，使之更接近行业用户的最终需求。每一款成品网站都提供在线演示和试用体验，让用户全面了解网站的设计和功能。所见即所得、网站上线快、升级维护方便、性价比高...
-                </p>
-                <p>现有多款<a href="__APP__/Product/index">成品网站</a>供您选用</p>
-            </div>
-        </div>
+        <div class="mb_title">网站简介</div>
         <div class="checkedMB clearfix">
         	<div class="checkedImg">
-            	<img src="<{$list.thumb_img}>">
+                <div class="imgBox">
+            	   <img src="<{$list.thumb_img}>">
+                </div>
             </div>
             <div class="checkedType">
-            	
-                    <div class="webType">
-                        模板名称：<{$list.title}>
+                <div class="webType">
+                    模板名称：<{$list.title}>
+                </div>
+                <div class="webNum">
+                    产品编号：<{$list.mode}>
+                </div>
+                <div class="webColor">
+                    颜色分类：<{$list.color}>
+                </div>
+                <div class="webClass">
+                    应用分类：<{$list.appcat}>
+                </div>
+                <div class="webTrade">
+                    行业分类：<{$cat_list.title}>
+                </div>
+                <div class="webKeyWord clearfix">
+                    <div class="keyTil">
+                        模板关键词：
                     </div>
-                    <div class="webNum">
-                        产品编号：<{$list.mode}>
-                    </div>
-                    <div class="webColor">
-                        颜色分类：<{$list.color}>
-                    </div>
-                    <div class="webClass">
-                        应用分类：<{$list.appcat}>
-                    </div>
-                    <div class="webTrade">
-                        行业分类：<{$cat_list.title}>
-                    </div>
-                    <div class="webKeyWord clearfix">
-                        <div class="keyTil">
-                            模板关键词：
-                        </div>
-                        <div class="keyWord clearfix">
-                            <foreach name="list['tag']" item="v">
-                            <a href="#"><{$v}></a>
-                        </foreach>
+                    <div class="keyWord clearfix">
+                        <foreach name="list['tag']" item="v">
+                        <a href="#"><{$v}></a>
+                    </foreach>
 
-                        </div>
                     </div>
+                </div>
+                <div class="btnBox clearfix">
+                    <div class="preview">
+                        <i class="icon-eye-open icon-white"></i>
+                        <i class="icon-eye-open icon-white icon-transition"></i>
+                        <input type="button" value="在线预览" />
+                    </div>  
+                    <div class="manage">
+                        <i class="icon-user icon-white"></i>
+                        <i class="icon-user icon-white icon-transition"></i>
+                        <input type="button" value="后台预览" />
+                    </div>
+                    <div class="trial">
+                        <i class="icon-star icon-white"></i>
+                        <i class="icon-star icon-white icon-transition"></i>
+                        <input type="button" value="试用体验" />
+                    </div>
+                    <div class="setting">
+                        <i class="icon-fire icon-white"></i>
+                        <i class="icon-fire icon-white icon-transition"></i>
+                        <input type="button" value="免费建站" />
+                    </div>
+                </div>
             </div>
         </div>
-        <table class="table mbTable">
-        	<tr>
-        		<td colspan="2">服务方式和服务时间</td>
-        	</tr>
-        	<tr>
-            	<td>电话支持<br>非节假日周一到周五9:30-17:30</td>
-                <td>√</td>
-  
-            </tr>
-            <tr>
-            	<td>Email、传真支持<br>非节假日周一到周五9:30-17:30</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>QQ/MSN支持<br>非节假日周一到周五9:30-17:30</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td colspan="2">软件支持服务项目和范围 </td>
-            </tr>
-            <tr>
-            	<td>商业授权和支持服务捆绑域名<br>软件商业授权和支持服务与网站的域名捆绑，作为识别商业授权和提供支持服务的标识</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>网站安装服务<br>检测虚拟主机是否可以安装本软件，将用户所购买的网站产品安装到虚拟主机空间</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>软件操作咨询<br>软件本身使用操作的咨询</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>软件故障处理<br>进行故障分析，排除软件故障</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>软件问题反馈和BUG报告<br>软件程序错误、漏洞报告，提供修复补丁或解决方案</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td>软件运行保障服务<br>以确保网站正常使用为目的，在非本软件原因(如域名、主机环境)导致网站工作不正常时，<br>提供适当的帮助，协助用户判断出现问题的原因，促成问 题的解决。</td>
-                <td>√</td>
-            </tr>
-            <tr>
-            	<td colspan="2">
-            	<font style='color:red;'>以下情况不属于软件支持服务范围</font><br>
-            	1、自行修改或使用非原始程序代码或模版产生的问题<br>
-            	2、在环境不适用的虚拟主机中安装网站<br>
-            	3、HTML、CSS、JS、PHP基础知识<br>
-            	4、模板、插件、程序的开发方面的咨询<br>
-            	5、其他未指定提供的服务项目
-            	
-            	</td>
+        <div class="process">
+            <div class="mb_title" style="margin:40px 0 10px 0;text-align:center;">建站流程</div>
+            <img class="fuwuqi" src="__PUBLIC__/site/img/fuwuqi.png">
+            <img class="yuming" src="__PUBLIC__/site/img/yuming.png">
+            <img class="duijie" src="__PUBLIC__/site/img/duijie.png">
 
-            </tr>
-
-        </table>
+            <div class="arrowBox clearfix">
+                <div class="arrow arrow-middle">网<br/>站<br/>前<br/>台</div>
+            </div>
+            <div class="step step_1">
+                <p>在免费网站市场选定网站样式，并将网站编号提供给客服人员。</p>
+            </div>
+            <div class="arrowBox clearfix">
+                <div class="arrow arrow-left pull-left">域<br/>名</div>
+                <div class="arrow arrow-right pull-right">域<br/>名</div>
+            </div>
+            <div class="left">
+                <div class="step step_2">
+                    <p>申请建站者自己提供域名。</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="step step_2">
+                    <p>购买泡椒域名。
+                        <div><input class="yellow-btn buy-btn" type="button" value="前去购买"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="arrowBox clearfix" style="margin-top:40px;">
+                <div class="arrow arrow-left pull-left" style="line-height:26px;">服<br/>务<br/>器</div>
+                <div class="arrow arrow-right pull-right" style="line-height:26px;">服<br/>务<br/>器</div>
+            </div>
+            <div class="left">
+                <div class="step step_2">
+                    <p>自己提供服务器。</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="step step_2">
+                    <p>购买泡椒服务器。
+                        <div><input class="yellow-btn buy-btn" type="button" value="前去购买"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="arrowBox clearfix" style="margin-top:40px;">
+                <div class="arrow arrow-left pull-left" style="line-height:25px;">后<br/>期<br/>服<br/>务</div>
+                <div class="arrow arrow-right pull-right" style="line-height:25px;">后<br/>期<br/>服<br/>务</div>
+            </div>
+            <div class="left">
+                <div class="step step_2">
+                    <p>由于建站申请人自己提供域名与空间，泡椒科技无法获得相应权限进行维护，故不提供后期任何维护服务。</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="step step_2">
+                    <p>泡椒提供免费网站安全检测维护，网站前台、后台的修改等服务。
+                        <div><input class="yellow-btn buy-btn" type="button" value="点击咨询"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="arrowBox clearfix" style="margin-top:40px;">
+                <div class="arrow arrow-left pull-left" style="line-height:18px;">技<br/>术<br/>对<br/>接</div>
+                <div class="arrow arrow-right pull-right" style="line-height:18px;">技<br/>术<br/>对<br/>接</div>
+            </div>
+            <div class="left">
+                <div class="step step_2">
+                    <p>将建站申请人手中的域名空间与泡椒的前台、后台进去对接。</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="step step_2">
+                    <p>对网站前台、域名、服务器、后台管理系统进行技术对接。</p>
+                </div>
+            </div>
+            <div class="arrowBox clearfix">
+                <div class="arrow arrow-middle">架<br/>设<br/>完<br/>成</div>
+            </div>
+            <div class="step step_1">
+                <p>建站申请人进行网站检测并验收网站。</p>
+                <div class="zixun"><input type="button" class="yellow-btn" value="咨询客服"></div>
+            </div>
+            
+        </div>                
     </div>
 </div>
 <!-------------------------------container---end----------------------------------------->
@@ -132,6 +171,7 @@
 <script>
 $(function(){
 $.insideMove(0);
+$.headerMove(248);    
 })
 </script>
 </block>

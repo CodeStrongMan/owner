@@ -25,7 +25,7 @@
 
 <script>
 $(function(){
-$.headerMove(300);
+$.headerMove(248);
 $.insideMove(1);
 });
 </script>

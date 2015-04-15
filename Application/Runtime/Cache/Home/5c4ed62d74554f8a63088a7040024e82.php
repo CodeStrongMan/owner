@@ -26,7 +26,7 @@
 <script>
 $(function(){
 $.insideMove(0);
-$.headerMove(300);
+$.headerMove(248);
 })
 $(function(){
 	var index = $('.nan-index').attr('data-index');

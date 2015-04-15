@@ -1,0 +1,389 @@
+[ 2015-04-15T17:37:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0508s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0516s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0506s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0549s ]
+SQL: SELECT `id`,`cat_id`,`title`,`dateline` FROM `nan_article_inc` ORDER BY `dateline` desc  [ RunTime:0.0514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-04-15T17:38:01+08:00 ] 127.0.0.1 /Siteprice/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0514s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0515s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2015-04-15T17:38:09+08:00 ] 127.0.0.1 /Siteprice/care.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0473s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0528s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-04-15T17:38:24+08:00 ] 127.0.0.1 /Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0479s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0526s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0479s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0525s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-04-15T17:38:25+08:00 ] 127.0.0.1 /Product/index/do/load/p/undefined/code/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0521s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0512s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0493s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0519s ]
+
+[ 2015-04-15T17:38:28+08:00 ] 127.0.0.1 /Product/index/do/load/p/2/code/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0510s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0512s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0501s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 9,9   [ RunTime:0.0519s ]
+
+[ 2015-04-15T17:38:28+08:00 ] 127.0.0.1 /Public/Uploads/2015-03-09/54fd77a8be9b9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-04-15T17:38:28+08:00 ] 127.0.0.1 /Public/Uploads/2015-03-09/54fd779edb9ce.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-04-15T17:38:33+08:00 ] 127.0.0.1 /Product/server.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0479s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0485s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-04-15T17:38:39+08:00 ] 127.0.0.1 /Information/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0481s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0474s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` WHERE `cat_id` = 1 LIMIT 1   [ RunTime:0.0468s ]
+SQL: SELECT * FROM `nan_article_inc` WHERE `cat_id` = 1 ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.0998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 111 行.
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2015-04-15T17:38:42+08:00 ] 127.0.0.1 /Information/line.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0491s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0510s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.3467s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0498s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` WHERE `cat_id` = 2 LIMIT 1   [ RunTime:0.0487s ]
+SQL: SELECT * FROM `nan_article_inc` WHERE `cat_id` = 2 ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.0973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\df5adaa0b45b2b8e8c53dbb265d952b8.php 第 111 行.
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\df5adaa0b45b2b8e8c53dbb265d952b8.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-04-15T17:38:44+08:00 ] 127.0.0.1 /About/mony.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0475s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-04-15T17:38:47+08:00 ] 127.0.0.1 /About/mony.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0492s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0483s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-04-15T17:38:48+08:00 ] 127.0.0.1 /About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0477s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0479s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0482s ]
+SQL: SELECT `content` FROM `nan_onepage_inc` WHERE `code` = 'content_page' LIMIT 1   [ RunTime:0.0744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-04-15T17:38:50+08:00 ] 127.0.0.1 /About/mony.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0471s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-04-15T17:38:56+08:00 ] 127.0.0.1 /About/joinus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0513s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0543s ]
+SQL: SELECT * FROM `nan_onepage_inc` WHERE `code` = 'zhaopin_page'  [ RunTime:0.0509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-04-15T17:38:59+08:00 ] 127.0.0.1 /Information/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0515s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0576s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` WHERE `cat_id` = 1 LIMIT 1   [ RunTime:0.0504s ]
+SQL: SELECT * FROM `nan_article_inc` WHERE `cat_id` = 1 ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 111 行.
+NOTIC: [8] Undefined variable: cat F:\www\robot\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+

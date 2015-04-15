@@ -23,58 +23,21 @@
 
 <body>
 
-<script src="/Public/site/js/et.min.js"></script>
-<script src="/Public/site/js/my.min.js"></script>
-<script type="text/template" id="theTemplate">
-<#macro userlist data>
-<#list data.list as list>
-	<li>
-		<a class="webImg" href='/Details/index/id/${list.id}.html'><img src="${list.img}"></a>
-		<div class="webType"><a href='/Details/index/id/${list.id}.html'>${list.title}</a></div>
-		<div class="webNum">产品编号：<span>${list.mode}</span></div>
-		<div class="webTrade">行业分类：<span>${list.code_title}</span></div>
-		<div class="webBtn clearfix">
-		<a href="${list.link}" target="_blank" rel="nofollow">在线演示</a>
-		<a href='/Details/index/id/${list.id}.html'>免费建站</a>
-		</div>
-	</li>
-</#list>
-</#macro>
-</script>
 <script>
 $(function(){
-$.headerMove(248);
 $.insideMove(0);
-showMore();
+$.headerMove(248);
 })
-var the_cat = '';
+$(function(){
+	var index = $('.nan-index').attr('data-index');
+	//alert(index);
+	if(index==1){
+		$.insideMove(0);
+	}else if(index==2){
+		$.insideMove(1);
+	}
 
-var ajaxpage = function(obj){
-	var dp = $(obj).attr('data-url');
-	$(function(){		
-		var url = "/Product/index/do/load/p/"+dp+"/code/"+the_cat;
-		var the_load = layer.load(30,1);
-		
-		$.get(url,function(data,status){
-			$.getScript("/Public/site/js/selectivizr-min.js");
-			ETlist(data['list'],'#nan-list','#theTemplate',0);
-			$("#pagebar").html(data['page']);
-			if(status=='success'){
-				layer.close(the_load);
-			}
-		})
-	})
-}
-var onall = function(){
-            var hrefUrl =  '<?php echo U("/Product/index");?>';
-
-	location.href = hrefUrl;
-}
-var onsel = function(obj){
-	the_cat = $(obj).attr('data-code');
-	ajaxpage();
-}
-ajaxpage();
+})
 </script>
 
 <!-------------------------------header-------------------------------------------->
@@ -127,75 +90,50 @@ ajaxpage();
 <!---------------------------------内页导航-------------------------------------->
 <div class="insideTitle">
     <div class="container">
-    	<div class="title">
-        	<span>产品展示</span>
-        	<span>Product template</span>
+        <div class="title">
+            <span>资讯动态</span>
+            <span>Dynamic Information</span>
         </div>
         <div class="sideBox clearfix">
             <ul class="insideMenu clearfix">
-                <?php foreach($res['27']['content'] as $v){?>
-            	<li><a href="<?php echo ($v["1"]); ?>"><?php echo ($v["0"]); ?></a></li>
-                <?php }?>
-
+                     <li><a href='<?php echo U("/Information/index");?>'>技术资讯</a></li>
+                <li><a href='<?php echo U("/Information/line");?>'>行业资讯</a></li>
             </ul>
             <div class="borderTop"></div>
         </div>
     </div>
 </div>
 <!---------------------------------内页导航---end------------------------------------>
-<!-------------------------------------header--end---------------------------------------------->
-<!-------------------------------container--style="display:none;"------------------------------------------>
-<div class="container filter">
-	<div class="filterMenu" >
-	<div>
-    	<div class="volType volNor clearfix">
-        	<div class="voltit">网站类型:</div>
-            <span class="on">全部</span>
-            <span>中文网站</span>
-            <span>英文网站</span>
-            <span>商城网站</span>
-        </div>
-        <div class="volType volColor clearfix">
-        	<div class="voltit">网站颜色:</div>
-            <span class="on">全部</span>
-            <span class="volred">红色</span>
-            <span class="volgrey">灰色</span>
-            <span class="volwhite">白色</span>
-            <span class="volblack">黑色</span>
-            <span class="volpink">粉色</span>
-            <span class="volpurple">紫色</span>
-            <span class="volblue">蓝色</span>
-            <span class="volgreen">绿色</span>
-            <span class="volorange">橙色</span>
-            <span class="colorful"><i>多</i><i>彩</i></span>
-        </div>
-        </div>
-        <div class="volTrade volType clearfix">
-        	<div class="voltit">行业分类:</div>
-            <span class="on" onclick="onall();">全部</span>
-            <div class="tradeBox" value="0">
-            	<div class="tradeHeight clearfix">
-            	<?php if(is_array($goods_cat)): $i = 0; $__LIST__ = $goods_cat;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><span onclick="onsel(this);" data-code="<?php echo ($vo["code"]); ?>"><?php echo ($vo["title"]); ?></span><?php endforeach; endif; else: echo "" ;endif; ?>
-                    
-                </div>
-            </div>
-            <div class="showMore"><a href="javascript:void(0)" onclick="showMore();"><i>点击查看更多</i><img src="/Public/site/img/ico_jiahao.gif" /></a></div>
-        </div>
-        <div class="volType volSerach clearfix">
-        	<div class="voltit">定向搜索:</div>
-            <div class="searchInput"><input type="text" placeholder="请输入行业关键词"></div>
-            <div class="searchBtn"></div>
-        </div>
-    </div>
-    <div class="productShow">
-    	<ul class="clearfix" id="nan-list">
-
+<!-------------------------------header----end---------------------------------------->
+<!-------------------------------container-------------------------------------------->
+<div class="container">
+	<div class="news">
+    	<div class="newTilte"><a href='<?php echo U("/Information/index/cid/$cat[id]");?>'><?php echo ($cat["title"]); ?></a></div>
+        <ul>
+        <?php foreach($list as $v){?>
+        	<li class="nan-index" data-index="<?php echo ($v["cat_id"]); ?>">
+            	<a href="<?php echo U("/Content/index/id/$v[id]");?>" class="newsA clearfix">
+                    <div class="left leftOn">
+                        <div class="day"><?php echo date('d',$v['dateline'])?></div>
+                        <div class="date"><?php echo date('Y',$v['dateline'])?>年<?php echo date('m',$v['dateline'])?>月</div>
+                    </div>
+                    <div class="right">
+                        <p class="newsTheme"><?php echo ($v["title"]); ?></p>
+                        <div class="newsContent">
+                        	<?php echo htmlspecialchars_decode($v['content']);?>
+                        </div>
+                    </div>
+                </a>
+            </li>
+	<?php }?>
         </ul>
-        <div class="paging clearfix">
-        	 <div id="pagebar"></div>
+        <div class="paging clearfix" style="margin-top:30px;">
+            <?php echo ($pagebar); ?>
         </div>
     </div>
 </div>
+<!-------------------------------container--end------------------------------------------>
+
 
 
 <!----------------------------------fixMenu-------------------------------------------------------->

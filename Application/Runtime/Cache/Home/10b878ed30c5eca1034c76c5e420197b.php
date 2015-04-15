@@ -25,7 +25,7 @@
 
 <script>
 $(function(){
-$.headerMove(300);
+$.headerMove(248);
 $.insideMove(2);
 $('.accept').click(function(){
 	if($(this).parent('dd').siblings('.input_area').is(":hidden")==true){
