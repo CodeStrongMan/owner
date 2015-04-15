@@ -9,7 +9,6 @@ class DetailsController extends PublicController{
         $list['tag'] = explode('/', $list['tag']);
 
         $cat_list   = F('goods');
-       
         $this->assign('list',$list);
         $this->assign('cat_list',$cat_list[$list["code"]]);
         $this->display();
