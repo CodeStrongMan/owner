@@ -1,0 +1,1 @@
+a:3:{s:12:"content_page";a:2:{s:4:"code";s:12:"content_page";s:5:"title";s:12:"内容单页";}s:11:"footer_page";a:2:{s:4:"code";s:11:"footer_page";s:5:"title";s:12:"页脚单页";}s:12:"zhaopin_page";a:2:{s:4:"code";s:12:"zhaopin_page";s:5:"title";s:12:"招聘单页";}}

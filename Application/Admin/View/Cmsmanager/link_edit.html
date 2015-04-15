@@ -1,0 +1,49 @@
+<include file="Public:head_edit" />
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+<body style="background-color:#EFF3F6;">
+<form method="post" action="__URL__/link_post" enctype="multipart/form-data">
+<div class="nbsp_40"> </div>
+<div class="clearfix nan-inline" >
+	<label>链接分类</label>
+	<select name="code" class="input wid_300">
+		<option value="0">选择分类...</option>
+		<?php foreach($cat_list as $v){?>
+		<option value="<{$v.code}>" <?php if($v[code]==$item[code]){echo "selected";}?>><{$v.title}></option>
+		<?php }?>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>链接标题</label>
+	<input type="text" name="title" value="<{$item.title}>" class="input nan-the-input wid_300"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>链接地址</label>
+	<input type="text" name="link" value="<{$item.link}>" class='input nan-the-input wid_300'>	
+</div>
+<div class="clearfix nan-inline" >
+	<label>排　　序</label>
+	<input type="text" name="sort" value="<{$item.sort}>" class='input nan-the-input wid_100'>	
+</div>
+<div class="clearfix nan-inline" >
+	<label>链接Logo</label>
+	<input type="file" name="thumb_img" class='input nan-the-input wid_300'>	
+</div>
+<div class="clearfix nan-inline" >
+	<label>链接简介</label>
+	<textarea name="content" class='input nan-the-input wid_300'><{$item.content}></textarea>
+</div>
+<div class="clearfix nan-inline" >
+	<input type="submit" class="button bg-main wid_80 nan_left " value="提交" onclick="disClick(this);">
+	<input type="reset" class="button bg-dot wid_80" value="重置">
+	<input type="hidden" name="id" value="<{$item.id}>"/>
+</div>
+</form>
+
+
+		
+</body>
+</html>

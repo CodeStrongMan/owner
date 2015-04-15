@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="renderer" content="webkit">
+	<meta author="robotnor" content="zhn" />
+	<title>机器脑 - 网站后台管理</title>
+	<link rel="stylesheet" href="__PUBLIC__/Css/pintuer.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/Css/admin.css">
+	<script src="__PUBLIC__/Js/jquery.js"></script>
+	<script src="__PUBLIC__/Js/respond.min.js"></script>
+	<script src="__PUBLIC__/Js/layer/layer.min.js"></script>
+	<script src="__PUBLIC__/Js/jquery.tips.min.js"></script>
+	<script src="__PUBLIC__/Js/et.min.js"></script>
+	<script src="__PUBLIC__/Js/my.js"></script>
+</head>
+<block name='javascript'></block>
+<script type="text/javascript">
+
+/*跳转*/
+function derect(url,time){
+	setTimeout(function(){
+		location.href = url;	
+	},time);
+}
+function mes(info,obj,color){
+	layer.tips(info, obj, {
+		    style: ['background-color:#'+color+'; color:#fff', '#'+color],
+		    maxWidth:185,
+		    time: 1,
+		    closeBtn:[0, false],
+
+		});
+}
+var logout = function (obj){
+	var url = '__APP__/Login/do_logout';
+	$.get(url,function(data){
+		if(parseInt(data)==1){
+			mes("退出成功",obj,'78BA32');
+			derect("__APP__/Login/login",1000);
+		}else{
+			mes("退出故障",obj,'C10005');
+		}
+		
+	})
+}
+</script>
+<body>
+ <div class="dux-head clearfix">
+        <div class="dux-logo">
+            <a href="#" target="_blank">
+                <img src="__PUBLIC__/Images/logo.gif" style="margin-top:-3px;" alt="后台管理系统">
+            </a>
+            <button class="button icon-navicon admin-nav-btn" data-target=".admin-nav"></button>
+            <button class="button icon-navicon icon-ellipsis-v admin-menu-btn" data-target=".admin-menu"></button>
+        </div>
+        <div class="dux-nav">
+            <ul class="nav  nav-navicon nav-inline admin-nav">
+                 <li class="active">
+                 	<a href="__APP__/" class="icon-home"> 首页</a>
+                 </li>
+                 <li >
+                 	<a href="__APP__/Funclist/index" class="icon-wrench"> 功能</a>
+                 </li>
+                 <li >
+                 	<a href="__APP__/Cmsmanager/index" class="icon-bars"> 内容</a>
+                 </li>
+
+                 <li>
+                 	<a href="__APP__/Alldata/index" class="
+icon-bar-chart-o"> 数据</a>
+                 </li>
+                 <li >
+                 	<a href="__APP__/User/index" class="icon-file-text-o"> 用户</a>
+                 </li>
+                 
+                 <li>
+                 	<a href="__APP__/System/index"class="icon-gear (alias)"> 系统</a>
+                 </li>          
+             </ul>
+            <ul class="nav  nav-navicon nav-menu nav-inline admin-nav nav-tool">
+               <li> <a href="/" class="icon-home"></a></li>
+               <li style="display:none;"> <a href="#" class="icon-user"></a></li>
+               <li> <a href="javascript:void(0)" onclick="logout(this)" class="dux-logout bg-red icon-power-off"></a></li>
+            </ul>
+        </div>
+    </div>
+   
+<block name='main'></block>
+<block name='model'></block>
+<div class="dux-sidebar">
+        <ul class="nav  nav-navicon admin-menu">
+            <div class="nav-head">功能</div>
+            <?php foreach($side as $v){?>
+            <li class="<?php if($v['action']==$inck){echo 'active';}?>">
+                <a href="__APP__/<{$v.model}>/<{$v.action}>" class="icon-<{$v.icon}>"><{$v.colname}></a>
+            </li>
+			<?php }?>
+       </ul>
+    </div>
+
+</body>
+</html>

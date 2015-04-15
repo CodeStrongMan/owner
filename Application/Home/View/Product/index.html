@@ -1,0 +1,116 @@
+<extend name='Public:site' />
+<block name='main'>
+<include file="inline" />
+<!-------------------------------------header--end---------------------------------------------->
+<!-------------------------------container--style="display:none;"------------------------------------------>
+<div class="container filter">
+	<div class="filterMenu" >
+	<div>
+    	<div class="volType volNor clearfix">
+        	<div class="voltit">网站类型:</div>
+            <span class="on">全部</span>
+            <span>中文网站</span>
+            <span>英文网站</span>
+            <span>商城网站</span>
+        </div>
+        <div class="volType volColor clearfix">
+        	<div class="voltit">网站颜色:</div>
+            <span class="on">全部</span>
+            <span class="volred">红色</span>
+            <span class="volgrey">灰色</span>
+            <span class="volwhite">白色</span>
+            <span class="volblack">黑色</span>
+            <span class="volpink">粉色</span>
+            <span class="volpurple">紫色</span>
+            <span class="volblue">蓝色</span>
+            <span class="volgreen">绿色</span>
+            <span class="volorange">橙色</span>
+            <span class="colorful"><i>多</i><i>彩</i></span>
+        </div>
+        </div>
+        <div class="volTrade volType clearfix">
+        	<div class="voltit">行业分类:</div>
+            <span class="on" onclick="onall();">全部</span>
+            <div class="tradeBox" value="0">
+            	<div class="tradeHeight clearfix">
+            	<volist name="goods_cat" id="vo">
+                    <span onclick="onsel(this);" data-code="<{$vo.code}>"><{$vo.title}></span>
+                    </volist>
+                    
+                </div>
+            </div>
+            <div class="showMore"><a href="javascript:void(0)" onclick="showMore();"><i>点击查看更多</i><img src="__PUBLIC__/site/img/ico_jiahao.gif" /></a></div>
+        </div>
+        <div class="volType volSerach clearfix">
+        	<div class="voltit">定向搜索:</div>
+            <div class="searchInput"><input type="text" placeholder="请输入行业关键词"></div>
+            <div class="searchBtn"></div>
+        </div>
+    </div>
+    <div class="productShow">
+    	<ul class="clearfix" id="nan-list">
+
+        </ul>
+        <div class="paging clearfix">
+        	 <div id="pagebar"></div>
+        </div>
+    </div>
+</div>
+
+</block>
+<block name='javascript'>
+<script src="__PUBLIC__/site/js/et.min.js"></script>
+<script src="__PUBLIC__/site/js/my.min.js"></script>
+<script type="text/template" id="theTemplate">
+<#macro userlist data>
+<#list data.list as list>
+	<li>
+		<a class="webImg" href='/Details/index/id/${list.id}.html'><img src="${list.img}"></a>
+		<div class="webType"><a href='/Details/index/id/${list.id}.html'>${list.title}</a></div>
+		<div class="webNum">产品编号：<span>${list.mode}</span></div>
+		<div class="webTrade">行业分类：<span>${list.code_title}</span></div>
+		<div class="webBtn clearfix">
+		<a href="${list.link}" target="_blank" rel="nofollow">在线演示</a>
+		<a href='/Details/index/id/${list.id}.html'>免费建站</a>
+		</div>
+	</li>
+</#list>
+</#macro>
+</script>
+<script>
+$(function(){
+$.headerMove(300);
+$.insideMove(0);
+showMore();
+})
+var the_cat = '';
+
+var ajaxpage = function(obj){
+	var dp = $(obj).attr('data-url');
+	$(function(){		
+		var url = "__URL__/index/do/load/p/"+dp+"/code/"+the_cat;
+		var the_load = layer.load(30,1);
+		
+		$.get(url,function(data,status){
+			$.getScript("/Public/site/js/selectivizr-min.js");
+			ETlist(data['list'],'#nan-list','#theTemplate',0);
+			$("#pagebar").html(data['page']);
+			if(status=='success'){
+				layer.close(the_load);
+			}
+		})
+	})
+}
+var onall = function(){
+            var hrefUrl =  '<{:U("__URL__/index")}>';
+
+	location.href = hrefUrl;
+}
+var onsel = function(obj){
+	the_cat = $(obj).attr('data-code');
+	ajaxpage();
+}
+ajaxpage();
+</script>
+</block>
+

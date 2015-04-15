@@ -1,0 +1,69 @@
+<extend name='Public:site' />
+<block name='main'>
+<!---------------------------------内页导航-------------------------------------->
+<div class="insideTitle">
+    <div class="container">
+        <div class="title">
+            <span>资讯动态</span>
+            <span>Dynamic Information</span>
+        </div>
+        <div class="sideBox clearfix">
+            <ul class="insideMenu clearfix">
+                     <li><a href='<?php echo U("/Information/index");?>'>技术资讯</a></li>
+                <li><a href='<?php echo U("/Information/line");?>'>行业资讯</a></li>
+            </ul>
+            <div class="borderTop"></div>
+        </div>
+    </div>
+</div>
+<!---------------------------------内页导航---end------------------------------------>
+<!-------------------------------header----end---------------------------------------->
+<!-------------------------------container-------------------------------------------->
+<div class="container">
+	<div class="news">
+    	<div class="newTilte"><a href='<?php echo U("/Information/index/cid/$cat[id]");?>'><{$cat.title}></a></div>
+        <ul>
+        <?php foreach($list as $v){?>
+        	<li class="nan-index" data-index="<{$v.cat_id}>">
+            	<a href="<?php echo U("/Content/index/id/$v[id]");?>" class="newsA clearfix">
+                    <div class="left leftOn">
+                        <div class="day"><?php echo date('d',$v['dateline'])?></div>
+                        <div class="date"><?php echo date('Y',$v['dateline'])?>年<?php echo date('m',$v['dateline'])?>月</div>
+                    </div>
+                    <div class="right">
+                        <p class="newsTheme"><{$v.title}></p>
+                        <div class="newsContent">
+                        	<?php echo htmlspecialchars_decode($v['content']);?>
+                        </div>
+                    </div>
+                </a>
+            </li>
+	<?php }?>
+        </ul>
+        <div class="paging clearfix" style="margin-top:30px;">
+            <{$pagebar}>
+        </div>
+    </div>
+</div>
+<!-------------------------------container--end------------------------------------------>
+
+
+</block>
+<block name='javascript'>
+<script>
+$(function(){
+$.insideMove(0);
+$.headerMove(300);
+})
+$(function(){
+	var index = $('.nan-index').attr('data-index');
+	//alert(index);
+	if(index==1){
+		$.insideMove(0);
+	}else if(index==2){
+		$.insideMove(1);
+	}
+
+})
+</script>
+</block>

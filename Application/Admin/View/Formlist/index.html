@@ -1,0 +1,59 @@
+<extend name='Public:admin'/>
+<block name='main'>
+<include file="Public:header" />
+    <div class="dux-bread">
+        <ul class="bread">
+            <li><a href="#" class="icon-home"> 开始</a></li>
+            <li><a href="#">留言板列表</a></li>
+        </ul>
+    </div>
+    
+    <div class="dux-admin">
+        <div class="dux-tools">
+            <div class="bread-head">留言板管理<span class="small">管理留言板内容</span></div>
+            <br/>
+            <div class="tools-function clearfix">
+                <div class="float-left">
+                    <a class="button button-small bg-main icon-list" href="#">内容列表</a>
+                </div>
+                <div class="button-group float-right">
+                    <a class="button button-small bg-dot icon-plus dropdown-toggle"> 添加 <span class="downward"></span></a> 
+                	<ul class="drop-menu pull-right">
+                		<li><a href="http://127.0.0.4/demo11/admin.php?s=/DuxCms/AdminFormData/add/fieldset_id/1.html">添加内容</a></li>
+                	</ul>
+                </div>
+           </div>
+        </div>
+        <br>
+        <div class="panel dux-box">
+    	<div class="table-responsive">
+            <table id="table" class="table table-hover ">
+                <tbody>
+                    <tr>
+                        <th width="100">编号</th>
+                        <th width="*">昵称</th>
+                        <th width="*">邮箱</th>
+                        <th width="*">时间</th>
+                        <th width="*">内容</th>
+                        <th width="100">操作</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+    					<td>
+                            <a class="button bg-blue button-small icon-pencil" href="#" title="修改"></a>
+                            <a class="button bg-red button-small icon-trash-o js-del" href="javascript:;" url="#" data="1" title="删除"></a>
+                        </td>
+                    </tr>
+        	</tbody>
+    	</table>
+    </div>
+    <div class="panel-foot table-foot clearfix">
+        <div class="dux-page"></div>    
+   </div>
+</div>
+</div>
+</block>

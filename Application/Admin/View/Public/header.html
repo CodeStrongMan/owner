@@ -1,0 +1,10 @@
+<div class="dux-sidebar">
+        <ul class="nav  nav-navicon admin-menu">
+            <div class="nav-head">栏目清单</div>
+            <?php foreach($side as $v){?>
+            <li class="<?php if($v['model']==$inc){echo 'active';}?>">
+                <a href="__APP__/<{$v.model}>/<{$v.action}>" class="icon-<{$v.icon}>"> <{$v.colname}></a>
+                </li>
+		<?php }?>
+        </ul>
+    </div>  

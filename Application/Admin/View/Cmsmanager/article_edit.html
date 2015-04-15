@@ -1,0 +1,37 @@
+<include file="Public:head_edit" />
+    
+<body style="background-color:#EFF3F6;">
+<form method="post" action="__URL__/article_post">
+<div class="nbsp_40"> </div>
+<div class="clearfix nan-inline" >
+	<label>文章分类</label>
+	<select name="cat_id" class="input wid_300">
+		<option value="0">分类名称</option>
+		<?php foreach($cat_list as $v){?>
+		<option value="<{$v.id}>" <?php if($v['id']==$item[cat_id]){echo 'selected';}?>><{$v.lev}><{$v.title}></option>
+		<?php }?>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>文章标题</label>
+	<input type="text" name="title" value="<{$item.title}>" class="input nan-the-input wid_300"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>文章内容</label>
+	<textarea id="container" name="content" class="ueditor" style="width:700px;height:200px;"><{$item.content}></textarea>
+</div>
+<div class="clearfix nan-inline" >
+	<input type="submit" class="button bg-main wid_80 nan_left " value="提交" onclick="disClick(this);">
+	<input type="reset" class="button bg-dot wid_80" value="重置">
+	<input type="hidden" name="id" value="<{$item.id}>"/>
+</div>
+</form>
+
+<script type="text/javascript" src="__PUBLIC__/ue/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ue/ueditor.all.js"></script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+		
+</body>
+</html>

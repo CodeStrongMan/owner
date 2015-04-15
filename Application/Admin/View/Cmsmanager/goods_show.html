@@ -1,0 +1,232 @@
+<extend name='Public:admin'/>
+
+<block name='main'>
+<include file="Public:header" />
+<div class="dux-bread">
+        <ul class="bread">
+            <li><a href="#" class="icon-home"> 开始</a></li>
+            <li><a href="#">产品列表</a></li>
+        </ul>
+    </div>
+    <div class="dux-admin">
+        <div class="dux-tools">
+            <div class="bread-head">产品管理<span class="small">添加产品</span></div>
+            <br>
+            <div class="tools-function clearfix">
+                <div class="float-left">
+                   <a onclick="oncat(this)" class="button button-small bg-main icon-list" href="javascript:void(0);">产品分类</a>
+                </div>
+
+	                <div class="float-left distance-left"> 
+	                	<input type="text" class="input" id="search-box" name="title"/>
+	                </div>
+	                <div class="float-left distance-left">                    		
+	                   		<select class="input" name='code'> 
+		                   		<option></option> 
+		                   		<foreach name="goods_cat" item="vo" >
+		                   		<option value='<{$vo.code}>'><{$vo.title}></option> 
+		                   		 </foreach>
+	                   		</select>
+	                </div>
+	                <div class="float-left distance-left"> 
+	                	<button class='button bg' type='submit' onclick='search();' >提交</button>
+	                </div>
+
+                <div class="button-group float-right">
+                    <button onclick="onmol(this)" class="button button-small bg-dot icon-plus"> 添加 </button> 
+                </div>
+               
+                
+        	</div>
+    	</div>
+        <br>
+
+    <div class="panel dux-box">
+        <div class="table-responsive">
+            <div id="nan-list"></div>           
+        </div>
+        <div class="panel-foot table-foot clearfix"></div>
+    </div>
+    <div id="pagebar"></div>
+
+</div>
+
+</block>
+
+
+<block name='javascript'>
+
+<script type="text/template" id="theTemplate">
+<#macro userlist data>
+<table id="table" class="table table-hover">
+  <thead>
+    <tr>
+	<th width="100">编号</th>
+	<th width="*">产品标题</th>
+	<th width="100">产品ID</th>
+
+	<th width="200">链接</th>
+	<th width="150">分类</th>
+	<th width="150">发布时间</th>
+	<th width="100">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+<#if (data.list==null)>
+		<tr>
+			<td colspan="5"><div class="alert alert-red"><strong>暂无数据</strong></div></td>
+		</tr>
+<#else>
+      <#list data.list as list>
+        <tr >
+          <td>${list.id}</td>
+          <td class="bold">${list.title}</td>
+
+          <td>${list.mode}</td>
+          <td>${list.link}</td>
+          <td>${list.code}</td>
+          <td>${list.dateline}</td>
+          <td>
+            <a onclick='onmol(this)' href="javascript:void(0);" data-id="${list.id}" class="button bg-blue button-small icon-pencil nan-edit" ></a>
+            <a onclick='ondel(${list.id})' href="javascript:void(0);"class="button bg-red button-small icon-trash-o js-del" ></a>
+          </td>
+        </tr>
+      </#list>
+</#if>
+  </tbody>
+</table>
+</#macro>
+</script>
+
+
+
+<script>
+var the_id;
+//弹出框
+var onmol = function(obj){
+	var id  = $(obj).attr('data-id');	
+	 the_id = $.layer({
+	    type: 2,
+	    border: [0],
+	    iframe: {
+	        src: '__URL__/goods_edit/id/'+id
+	    },
+	    title: false,
+	    area: ['1000px','600px']
+	}); 
+	
+}
+
+//模拟ax返回
+var AX = function(info){
+	switch(parseInt(info)){	
+	case 1:
+		layer.msg('产品添加成功',1,{type:1,shade:false,rate:'left'});
+		layer.close(the_id);
+		ajaxpage();	
+		break;
+	case 2:
+		layer.msg('产品添加失败',1,{type:2,shade:false,rate:'left'});
+		layer.close(the_id);
+		ajaxpage();
+		break;
+	case 3:
+		layer.msg('产品修改成功',1,{type:1,shade:false,rate:'left'});
+		layer.close(the_id);
+		ajaxpage();
+		break;
+	case 4:
+		layer.msg('产品修改失败',1,{type:2,shade:false,rate:'left'});
+		layer.close(the_id);
+		ajaxpage();
+		break;
+	default:
+		$.Tips(obj,'操作有误','error');
+		break;	
+}
+	
+}
+//读取列表
+var ajaxpage = function(obj){
+	var dp = $(obj).attr('data-url');
+
+	$(function(){
+		var url = "__URL__/goods_show/do/load/p/"+dp;
+		var the_load = layer.load(30);
+		$.get(url,function(data,status){
+			ETlist(data['list'],'#nan-list','#theTemplate');
+			$("#pagebar").html(data['page']);
+			if(status=='success'){
+				layer.close(the_load);
+			}	
+		})
+	})
+}
+
+var search = function(){
+	var keysword = $('#search-box').val();
+	var code     = $('select[name="code"]').val();
+	if(keysword==''|code==''){
+		$('#pagebar').hide();
+	}
+
+	$(function(){
+		var url = "__URL__/goods_show?do=search&keysword="+keysword+"&code="+code;
+		var the_load = layer.load(30);
+		$.get(url,function(data,status){
+			ETlist(data['list'],'#nan-list','#theTemplate');
+			if(status=='success'){
+				layer.close(the_load);
+			}	
+		})
+	})
+}
+
+
+
+//删除弹出
+var ondel = function(id){
+	$.layer({
+	    shade: [0],
+	    area: ['auto','auto'],
+	    dialog: {
+	        msg: '确定要删除吗？',
+	        btns: 2,                    
+	        type: 4,
+	        btn: ['确定','取消'],
+	        yes: function(){
+	        		var url = "__URL__/goods_del/do/del/id/"+id;
+
+        			$.get(url,function(data){
+		        		if(parseInt(data)==1){
+		        			layer.msg('删除成功',1,{type:1,shade:false,rate:'left'});
+		        			ajaxpage();
+		        		}else{
+		        			layer.msg('删除失败',1,{type:2,shade:false,rate:'left'});
+		        		}
+		        	})	        	
+	        }
+	    }
+	});
+}
+
+
+
+ajaxpage()
+</script>
+<!-- 产品分类 -->
+<script>
+//产品分类列表读取
+var oncat = function(obj){		
+ 	$.layer({
+	    type: 2,
+	    border: [0],
+	    iframe: {
+	        src: "__URL__/goods_cat"
+	    },
+	    title: false,
+	    area: ['1200px','600px']
+	}); 
+}
+</script>
+</block>

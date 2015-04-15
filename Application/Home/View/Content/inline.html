@@ -1,0 +1,18 @@
+<!---------------------------------内页导航--------------------------------------->
+<div class="insideTitle">
+    <div class="container">
+    	<div class="title">
+        	<span>资讯动态</span>
+        	<span>Dynamic Information</span>
+        </div>
+        <div class="sideBox clearfix">
+            <ul class="insideMenu clearfix">
+            	<?php foreach($cat_list as $key=>$val){?>
+            	<li><a href="<?php echo U("/Information/index/cid/$key");?>"><{$val.title}></a></li>
+            	<?php }?>
+            </ul>
+            <div class="borderTop"></div>
+        </div>
+    </div>
+</div>
+<!---------------------------------内页导航---end------------------------------------>

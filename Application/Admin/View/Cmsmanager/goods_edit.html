@@ -1,0 +1,59 @@
+<include file="Public:head_edit" />
+
+<body style="background-color:#EFF3F6;">
+<form method="post" action="__URL__/goods_post" enctype="multipart/form-data">
+<div class="nbsp_40"> </div>
+<div class="clearfix nan-inline" >
+	<label>产品分类</label>
+	<select name="code" class="input wid_300">
+		<option value="0">选择分类...</option>
+		<?php foreach($cat_list as $v){?>
+		<option value="<{$v.code}>" <?php if($v[code]==$item[code]){echo "selected";}?>><{$v.title}></option>
+		<?php }?>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>产品型号</label>
+	<input type="text" name="mode" value="<{$item.mode}>" class="input nan-the-input wid_200"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>产品标题</label>
+	<input type="text" name="title" value="<{$item.title}>" class="input nan-the-input wid_300"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>产品颜色</label>
+	<input type="text" name="color" value="<{$item.color}>" class="input nan-the-input wid_200"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>应用分类</label>
+	<input type="text" name="appcat" value="<{$item.appcat}>" class="input nan-the-input wid_200"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>标　　签</label>
+	<input type="text" name="tag" value="<{$item.tag}>" class="input nan-the-input wid_300"  />
+	<b style="font-size:18px;color:red;">　　标签请用“/”隔开,例如：“机电/仪器/设备”</b>
+</div>
+<div class="clearfix nan-inline" >
+	<label>试用链接</label>
+	<input type="text" name="link" value="<{$item.link}>" class="input nan-the-input wid_300"  />
+</div>
+
+
+<div class="clearfix nan-inline" >
+	<label>产品首图</label>
+    <input size="100" type="file" name="img" class="input nan-the-input wid_300" />
+</div>
+
+
+<div class="clearfix nan-inline" >
+	<input type="submit" class="button bg-main wid_80 nan_left " value="提交" onclick="disClick(this);">
+	<input type="reset" class="button bg-dot wid_80" value="重置">
+	<input type="hidden" name="id" value="<{$item.id}>"/>
+</div>
+
+</form>
+
+
+		
+</body>
+</html>

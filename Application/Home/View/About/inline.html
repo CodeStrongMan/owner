@@ -1,0 +1,18 @@
+<!-----------------------------内页导航-------------------------------------->
+<div class="insideTitle">
+    <div class="container">
+    	<div class="title">
+        	<span>关于我们</span>
+        	<span>About Us</span>
+        </div>
+        <div class="sideBox clearfix">
+            <ul class="insideMenu clearfix">
+                    <?php foreach($res['33']['content'] as $v){?>
+            	<li><a href="<{$v.1}>"><{$v.0}></a></li>
+		<?php }?>
+            </ul>
+            <div class="borderTop"></div>
+        </div>
+    </div>
+</div>
+<!-------------------------------内页导航---end------------------------------------>

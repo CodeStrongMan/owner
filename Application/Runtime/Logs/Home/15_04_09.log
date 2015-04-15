@@ -1,0 +1,26 @@
+[ 2015-04-09T16:13:42+08:00 ] 127.0.0.1 /Product/index/do/load/p/undefined/code/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0542s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0516s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0480s ]
+
+[ 2015-04-09T16:27:48+08:00 ] 127.0.0.1 /Product/index/do/load/p/undefined/code/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `nan_link_inc` WHERE `code` = 'top_nav' ORDER BY `sort` asc  [ RunTime:0.0448s ]
+SQL: SELECT `content` FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0435s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0458s ]
+

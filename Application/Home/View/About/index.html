@@ -1,0 +1,20 @@
+<extend name='Public:site' />
+<block name='main'>
+<include file="inline" />
+<!-------------------------------header----end---------------------------------------->
+<!-------------------------------container-------------------------------------------->
+<div class="container">
+<?php echo htmlspecialchars_decode($list['content']);?>
+</div>
+<!-------------------------------container--end------------------------------------------>
+
+</block>
+<block name='javascript'>
+<script>
+
+$(function(){
+$.insideMove(0);
+$.headerMove(300);
+})
+</script>
+</block>

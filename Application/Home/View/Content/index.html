@@ -1,0 +1,34 @@
+<extend name='Public:site' />
+<block name='main'>
+<include file="inline" />
+
+<!-------------------------------header----end---------------------------------------->
+<!-------------------------------container-------------------------------------------->
+<div class="container">
+	<div class="newsDetail">
+    	<div class="newsDTil clearfix">
+        	<div class="title"><{$result.title}></div>
+            <a href='<?php echo U("/Information/index/cid/$result[cat_id]")?>'><img src="__PUBLIC__/site/img/btn_back.gif"></a>
+        </div>
+        <div class="newsSecond">
+        	分类：
+            <a href='<?php echo U("/Information/index/cid/$result[cat_id]")?>'><{$result.cat_name}></a>
+            发布时间：
+            <span><{$result.dateline|date="Y/m/d",###}></span>
+            <div style="display:none;">|  浏览次数：<span>519</span>  | </div> 
+        </div>
+        <div class="newsContent">       
+            	<?php echo htmlspecialchars_decode($result['content']);?>              
+        </div>
+
+    </div>
+</div>
+<!-------------------------------container---end----------------------------------------->
+</block>
+<block name='javascript'>
+<script>
+$(function(){
+	$.insideMove(0);
+	})
+</script>
+</block>

@@ -1,0 +1,30 @@
+<include file="Public:head_edit" />
+
+<body style="background-color:#EFF3F6;">
+<form method="post" action="__URL__/art_cat_post">
+<div class="nbsp_40"> </div>
+<div class="clearfix nan-inline" >
+	<label>上级分类</label>
+	<select name="pid" class="input wid_300">
+		<option value="0">顶级分类</option>
+		<?php foreach($list as $v){?>
+		<option value="<{$v.id}>" <?php if($v[id]==$item['pid']){echo 'selected';}?>><{$v.lev}><{$v.title}></option>
+		<?php }?>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>分类名称</label>
+	<input type="text" name="title" value="<{$item.title}>" class="input nan-the-input wid_300"  />
+</div>
+
+<div class="clearfix nan-inline" >
+	<input type="submit" class="button bg-main wid_80 nan_left " value="提交">
+	<input type="reset" class="button bg-dot wid_80" value="重置">
+	<input type="hidden" name="id" value="<{$item.id}>"/>
+</div>
+</form>
+
+
+		
+</body>
+</html>

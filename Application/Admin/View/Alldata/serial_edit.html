@@ -1,0 +1,34 @@
+<include file="Public:head_edit" />
+    
+<body style="background-color:#EFF3F6;">
+<form method="post" action="__URL__/serial_post">
+<div class="nbsp_40"> </div>
+<div class="clearfix nan-inline" >
+	<label>关联银行卡</label>
+	<select name="code" class="input wid_300">
+		<foreach name="cat" item="v">
+		<option value="<{$v.code}>"><{$v.bank}>--<{$v.bankusername}></option>
+		</foreach>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>收　　　入</label>
+	<input type="text" name="income" value="0.00" class="input nan-the-input wid_300"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>支　　　出</label>
+	<input type="text" name="expend" value="0.00" class="input nan-the-input wid_300"  />
+</div>
+<div class="clearfix nan-inline" >
+	<label>关 联 成 员</label>
+	<textarea style="width:700px;height:200px;" name="remark"></textarea>
+</div>
+<div class="clearfix nan-inline" >
+	<input type="submit" class="button bg-main wid_80 nan_left " value="提交" onclick="disClick(this);">
+	<input type="reset" class="button bg-dot wid_80" value="重置">
+</div>
+</form>
+
+		
+</body>
+</html>

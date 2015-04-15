@@ -1,0 +1,113 @@
+<extend name='Public:admin'/>
+<block name='main'>
+<include file="Public:header" />
+    <div class="dux-bread">
+        <ul class="bread">
+            <li><a href="#" class="icon-home"> 开始</a></li>
+            <li><a href="#">站点信息</a></li>
+       	</ul>
+    </div>
+    <div class="dux-admin">
+        <div class="dux-tools">
+            <div class="bread-head">网站设置<span class="small">设置网站整体功能</span></div>
+            <br>
+            <div class="tools-function clearfix">
+                <div class="float-left">
+                	<button class="button bg-red" onclick="Refresh(this)">刷新缓存</button>
+                	<div style="display:none;">
+                    <a class="button button-small bg-back icon-mobile" href="#">手机设置</a>
+                    <a class="button button-small bg-back icon-eye" href="#">模板设置</a>
+                    <a class="button button-small bg-back icon-dashboard" href="#">性能设置</a>
+                    <a class="button button-small bg-back icon-shield" href="#">安全设置</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+<div class="form-x dux-form form-auto">
+    <div class="panel dux-box  active">
+        <div class="panel-head">
+            <strong>站点信息</strong>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="label">
+                    <label for="sitename">售前客服QQ</label>
+                </div>
+                <div class="field">
+                    <textarea class="input" name="serviceqq" rows="4" cols="62"><{$theone}></textarea>
+                    <div class="input-note">客服QQ，使用"|"分割</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="label">
+                    <label for="sitename">售后技术QQ</label>
+                </div>
+                <div class="field">
+                    <textarea class="input" name="skillqq" rows="4" cols="62"><{$thetwo}></textarea>
+                    <div class="input-note">客服QQ，使用"|"分割</div>
+                </div>
+            </div>
+
+            
+
+        </div>
+        <div class="panel-foot">
+            <div class="form-button">
+                <div id="tips"></div>
+                <button class="button bg-main" onclick="onsave();">保存</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
+</block>
+<block name='javascript'>
+<script>
+var Refresh = function(obj){
+    var url = '__URL__/onqq';
+    $.get(url,function(data){
+        if(parseInt(data)){
+                $.Tips(obj,'缓存刷新成功','success');
+        }else{
+                $.Tips(obj,'缓存刷新成功','error');
+        }
+    })
+}
+var onsave = function(){
+	
+
+             var serviceqq  = $('textarea[name="serviceqq"]').val();
+	var skillqq  = $('textarea[name="skillqq"]').val();
+
+
+
+	var obj     = this;
+	var url     = '__URL__/qq_post';
+	var data    = 'serviceqq='+serviceqq+'&skillqq='+skillqq;
+
+	$.post(url,data,function(data){
+		switch(parseInt(data)){			
+			case 1:
+				layer.msg('qq更新成功',2,{type:1,shade:false,rate:'left'});
+				break;
+			case 2:
+				layer.msg('qq更新失败',2,{type:2,shade:false,rate:'left'});
+				break;
+			case 3:
+				layer.msg('qq更新成功',2,{type:1,shade:false,rate:'left'});
+				break;
+			case 4:
+				layer.msg('qq更新失败',2,{type:2,shade:false,rate:'left'});
+				break;
+			default:
+				layer.msg('操作有误',2,{type:3,shade:false,rate:'left'});
+				break;	
+		}
+
+	})
+}
+</script>
+</block>

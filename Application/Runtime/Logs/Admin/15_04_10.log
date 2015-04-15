@@ -1,0 +1,2851 @@
+[ 2015-04-10T10:13:19+08:00 ] 127.0.0.1 /admin.php/Login/login_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.1045s ]
+SQL: SELECT * FROM `nan_user_inc` WHERE `username` = 'haonanpaojiao' LIMIT 1   [ RunTime:0.0476s ]
+
+[ 2015-04-10T10:13:21+08:00 ] 127.0.0.1 /admin.php/Index/time_tray
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Index'  [ RunTime:0.0506s ]
+
+[ 2015-04-10T10:13:24+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0454s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.1345s ]
+
+[ 2015-04-10T10:13:26+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0448s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0442s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0442s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:13:27+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0485s ]
+
+[ 2015-04-10T10:14:06+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0514s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0505s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0512s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0516s ]
+
+[ 2015-04-10T10:15:06+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0486s ]
+
+[ 2015-04-10T10:15:17+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0482s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0479s ]
+
+[ 2015-04-10T10:15:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0444s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0446s ]
+
+[ 2015-04-10T10:15:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0479s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0484s ]
+
+[ 2015-04-10T10:15:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0480s ]
+
+[ 2015-04-10T10:16:00+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0437s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0444s ]
+
+[ 2015-04-10T10:17:57+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0476s ]
+NOTIC: [8] Undefined index: guo F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: guo F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+
+[ 2015-04-10T10:18:13+08:00 ] 127.0.0.1 /admin.php/Alldata/serial_cat/do/load
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0441s ]
+
+[ 2015-04-10T10:18:27+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0487s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0483s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0481s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0483s ]
+
+[ 2015-04-10T10:18:32+08:00 ] 127.0.0.1 /admin.php/User/node/do/load
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `nan_node` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `nan_node`  [ RunTime:0.0492s ]
+
+[ 2015-04-10T10:18:34+08:00 ] 127.0.0.1 /admin.php/User/role/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_role` LIMIT 1   [ RunTime:0.0452s ]
+SQL: SELECT * FROM `nan_role` LIMIT 0,10   [ RunTime:0.0449s ]
+
+[ 2015-04-10T10:18:57+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0447s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0444s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.1346s ]
+
+[ 2015-04-10T10:19:16+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0436s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0444s ]
+
+[ 2015-04-10T10:19:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/goods_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0481s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0504s ]
+
+[ 2015-04-10T10:22:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0482s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0478s ]
+
+[ 2015-04-10T10:22:29+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/goods_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0476s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0495s ]
+
+[ 2015-04-10T10:22:30+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0488s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0475s ]
+
+[ 2015-04-10T10:22:31+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_cat/do/load
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0516s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0479s ]
+
+[ 2015-04-10T10:22:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0436s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0438s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:22:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/one_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_onepage_inc` LIMIT 1   [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_onepage_inc` LIMIT 0,10   [ RunTime:0.0496s ]
+
+[ 2015-04-10T10:23:25+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0493s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.1457s ]
+
+[ 2015-04-10T10:24:31+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+ERR: SQLSTATE[HY000] [1130] Host '115.199.183.54' is not allowed to connect to this MySQL server
+
+[ 2015-04-10T10:24:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+ERR: SQLSTATE[HY000] [1130] Host '115.199.183.54' is not allowed to connect to this MySQL server
+
+[ 2015-04-10T10:24:40+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+ERR: SQLSTATE[HY000] [1130] Host '115.199.183.54' is not allowed to connect to this MySQL server
+
+[ 2015-04-10T10:24:54+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:24:55+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/goods_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:24:58+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:25:00+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:25:02+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T10:25:03+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:25:10+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_cat/do/load
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:36:51+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:36:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:37:11+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:37:11+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:37:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:37:46+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:37:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_post
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'img' doesn't have a default value
+
+[ 2015-04-10T10:37:54+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:38:01+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_post
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'img' doesn't have a default value
+
+[ 2015-04-10T10:43:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:43:38+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 338 行.
+
+[ 2015-04-10T10:43:46+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T10:43:49+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T10:44:01+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_post
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'img' doesn't have a default value
+
+[ 2015-04-10T10:47:26+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:49:27+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:49:32+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:49:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:50:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T10:51:09+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:51:10+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 10,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:51:12+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 14 [ RunTime:0.0265s ]
+
+[ 2015-04-10T10:51:12+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:51:14+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 12 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:51:14+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:51:17+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 13 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:51:17+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:51:55+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:11+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 15 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:11+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T10:52:13+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:52:15+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 16 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:15+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T10:52:17+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 17 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:17+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:52:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 18 [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:21+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0044s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 19 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:21+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T10:52:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 20 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:52:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 10,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:48+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 27 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:48+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 25 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:52:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 26 [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:52:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:54:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T10:54:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T10:55:32+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T10:58:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T10:58:30+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:58:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T10:58:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T10:58:40+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-10T10:58:46+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T11:00:05+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:21+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:30+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 10,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 33 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/29
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 29 [ RunTime:0.0001s ]
+
+[ 2015-04-10T11:00:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 28 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T11:00:44+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 24 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:44+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:46+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 23 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:46+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:47+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0044s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 22 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:48+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:49+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 21 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:49+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:51+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 30 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:51+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2015-04-10T11:00:54+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 31 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:54+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002974s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:00:56+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/32
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 32 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:00:56+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:02:11+08:00 ] 127.0.0.1 /admin.php/Index/time_tray
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Index'  [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:02:13+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:02:42+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:02:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T11:02:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:02:53+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 10,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T11:04:29+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:06:14+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:07:01+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2015-04-10T11:07:36+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:07:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T11:07:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:07:37+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:07:48+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:13:16+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:13:22+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:13:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T11:14:11+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-10T11:14:20+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 20,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:14:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/49
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 49 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:14:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0014s ]
+
+[ 2015-04-10T11:14:26+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/42
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 42 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:27+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2015-04-10T11:14:28+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/41
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 41 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:28+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:14:30+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/40
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 40 [ RunTime:0.0001s ]
+
+[ 2015-04-10T11:14:30+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-10T11:14:31+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/39
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 39 [ RunTime:0.0001s ]
+
+[ 2015-04-10T11:14:31+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0019s ]
+
+[ 2015-04-10T11:14:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 38 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:14:34+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 37 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:34+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:14:36+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 36 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:36+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T11:14:38+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/34
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 34 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:14:38+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:14:40+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 35 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:40+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2015-04-10T11:14:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/43
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 43 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:14:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/44
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 44 [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:14:43+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T11:14:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/45
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 45 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:14:45+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:16:15+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:16:18+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/46
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 46 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:16:18+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2015-04-10T11:16:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/47
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 47 [ RunTime:0.0001s ]
+
+[ 2015-04-10T11:16:19+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:16:21+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/article_del/do/del/id/48
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant del - assumed 'del' F:\www\robot\Application\Admin\Controller\CmsmanagerController.class.php 第 78 行.
+SQL: DELETE FROM `nan_article_inc` WHERE `id` = 48 [ RunTime:0.0002s ]
+
+[ 2015-04-10T11:16:21+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2015-04-10T11:16:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:17:41+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:17:47+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:19:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:19:56+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T11:20:49+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T11:20:56+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T11:21:02+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2015-04-10T11:21:44+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T11:21:52+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2015-04-10T11:21:53+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 10,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T13:16:49+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T13:17:36+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/one_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_onepage_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_onepage_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_onepage_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T13:17:38+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/ad_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `nan_ad_inc` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_ad_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_ad_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:17:38+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/link_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_link_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_link_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_link_inc` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T13:17:39+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/goods_show/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_goods_inc` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_goods_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_goods_inc` LIMIT 0,9   [ RunTime:0.0004s ]
+
+[ 2015-04-10T13:17:40+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:18:49+08:00 ] 127.0.0.1 /admin.php/Funclist/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T13:18:50+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:18:52+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:25:59+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY dateline LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:26:01+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY dateline LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:26:03+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY dateline LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2015-04-10T13:26:15+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY dateline LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T13:26:16+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY dateline LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2015-04-10T13:26:35+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:27:41+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0002s ]
+
+[ 2015-04-10T13:27:44+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:31:38+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:32:54+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:33:36+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `nan_accounts_inc`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:35:07+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:36:09+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:36:18+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:36:34+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T13:37:26+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:49:23+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:51:38+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T13:52:52+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-04-10T13:53:13+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004837s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:15:29+08:00 ] 127.0.0.1 /admin.php/Funclist/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T14:15:31+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2015-04-10T14:15:32+08:00 ] 127.0.0.1 /admin.php/Funclist/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:15:33+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T14:15:34+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:15:34+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:15:36+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:16:17+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:16:26+08:00 ] 127.0.0.1 /admin.php/Funclist/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-04-10T14:25:43+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0001s ]
+
+[ 2015-04-10T14:32:51+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0515s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0494s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0512s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0501s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0506s ]
+
+[ 2015-04-10T14:33:54+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0504s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0518s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0501s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0499s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='7' [ RunTime:0.0509s ]
+
+[ 2015-04-10T14:52:51+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2015-04-10T14:52:53+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-04-10T14:52:54+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002350s ]
+
+[ 2015-04-10T14:52:55+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0573s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-04-10T14:52:55+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-04-10T14:52:56+08:00 ] 127.0.0.1 /admin.php/System/onqq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0512s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: inc F:\www\robot\Application\Runtime\Cache\Admin\eef993c9383a99b2b1bfd0d056aaf5af.php 第 142 行.
+NOTIC: [8] Undefined variable: inc F:\www\robot\Application\Runtime\Cache\Admin\eef993c9383a99b2b1bfd0d056aaf5af.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2015-04-10T14:52:59+08:00 ] 127.0.0.1 /admin.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0491s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0488s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0481s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2015-04-10T14:52:59+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0509s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0517s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0503s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0507s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0501s ]
+
+[ 2015-04-10T14:53:01+08:00 ] 127.0.0.1 /admin.php/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'System'  [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `nan_siteconfig_inc` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `nan_siteconfig_inc` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-04-10T14:53:02+08:00 ] 127.0.0.1 /admin.php/Alldata/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0475s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0476s ]
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: inc F:\www\robot\Application\Runtime\Cache\Admin\26fbbace95eda5ffd55f92d1138cb67f.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-04-10T14:53:03+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0513s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0538s ]
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+
+[ 2015-04-10T15:22:23+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0512s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0504s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-04-10T15:22:24+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0499s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1527s ]
+
+[ 2015-04-10T15:22:32+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0478s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0475s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0479s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2015-04-10T15:22:32+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0476s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0486s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0467s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1515s ]
+
+[ 2015-04-10T15:22:34+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0479s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0476s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002280s ]
+
+[ 2015-04-10T15:22:35+08:00 ] 127.0.0.1 /admin.php/Cmsmanager/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Cmsmanager'  [ RunTime:0.0512s ]
+SQL: SHOW COLUMNS FROM `nan_article_inc` [ RunTime:0.0514s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_article_inc` LIMIT 1   [ RunTime:0.0493s ]
+SQL: SELECT * FROM `nan_article_inc` ORDER BY `dateline` desc LIMIT 0,10   [ RunTime:0.1559s ]
+
+[ 2015-04-10T15:22:36+08:00 ] 127.0.0.1 /admin.php/Funclist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0474s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0477s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\www\robot\Application\Runtime\Cache\Admin\439a5649cee0dd8b166122abc91e0c4b.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2015-04-10T15:22:37+08:00 ] 127.0.0.1 /admin.php/Funclist/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Funclist'  [ RunTime:0.0508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_column_inc` LIMIT 1   [ RunTime:0.0511s ]
+SQL: SELECT * FROM `nan_column_inc` LIMIT 0,10   [ RunTime:0.0506s ]
+
+[ 2015-04-10T15:22:38+08:00 ] 127.0.0.1 /admin.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0507s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0521s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0499s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0525s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0508s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='9' [ RunTime:0.0512s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2015-04-10T15:22:39+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0503s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0507s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0543s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='9' [ RunTime:0.0504s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0504s ]
+
+[ 2015-04-10T15:22:44+08:00 ] 127.0.0.1 /admin.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0477s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0478s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0474s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0480s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='9' [ RunTime:0.0484s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002388s ]
+
+[ 2015-04-10T15:22:44+08:00 ] 127.0.0.1 /admin.php/User/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'User'  [ RunTime:0.0478s ]
+SQL: SHOW COLUMNS FROM `nan_user_inc` [ RunTime:0.0490s ]
+SQL: SELECT `id`,`username`,`othername`,`email`,`status`,`last_login`,`login_ip` FROM `nan_user_inc`  [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `nan_role` [ RunTime:0.0474s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.0465s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='9' [ RunTime:0.0481s ]
+NOTIC: [8] Undefined index: mapping_order F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: mapping_limit F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: relation_foreign_key F:\www\robot\Core\Library\Think\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM nan_role_user AS a, nan_role AS b WHERE a.role_id = b.id AND a. user_id='8' [ RunTime:0.0485s ]
+
+[ 2015-04-10T15:26:51+08:00 ] 127.0.0.1 /admin.php/Alldata/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0518s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0503s ]
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: inc F:\www\robot\Application\Runtime\Cache\Admin\26fbbace95eda5ffd55f92d1138cb67f.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-04-10T15:26:52+08:00 ] 127.0.0.1 /admin.php/Alldata/index/do/load/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `nan_column_inc` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `nan_column_inc` WHERE `model` = 'Alldata'  [ RunTime:0.0472s ]
+SQL: SHOW COLUMNS FROM `nan_accounts_inc` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `nan_accounts_inc` ORDER BY `dateline` desc  [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nan_accounts_inc` LIMIT 1   [ RunTime:0.0466s ]
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+NOTIC: [8] Undefined index: ZHNZFB F:\www\robot\Application\Admin\Controller\AlldataController.class.php 第 12 行.
+
