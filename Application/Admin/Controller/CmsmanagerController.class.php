@@ -780,7 +780,8 @@ class CmsmanagerController extends PublicController{
             'color'      => I('post.color'),
             'appcat'      => I('post.appcat'),
             'tag'         => I('post.tag'),
-            'mode'      => I('post.mode')
+            'mode'      => I('post.mode'),
+            'type'      => I('post.type')
         );
 
         if(!empty($_FILES['img']['name'])){

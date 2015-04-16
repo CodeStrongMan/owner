@@ -15,7 +15,7 @@ return array(
 		'DB_PORT'   => 3306,
 		'DB_PREFIX' => 'nan_', */
 		
-        		//'SHOW_PAGE_TRACE'=>true,
+        		'SHOW_PAGE_TRACE'=>true,
 		'TMPL_L_DELIM'=>'<{',
 		'TMPL_R_DELIM'=>'}>',
 

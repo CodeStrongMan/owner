@@ -13,15 +13,23 @@
 	</select>
 </div>
 <div class="clearfix nan-inline" >
-	<label>产品型号</label>
+	<label>模板型号</label>
 	<input type="text" name="mode" value="<{$item.mode}>" class="input nan-the-input wid_200"  />
 </div>
 <div class="clearfix nan-inline" >
-	<label>产品标题</label>
+	<label>模板标题</label>
 	<input type="text" name="title" value="<{$item.title}>" class="input nan-the-input wid_300"  />
 </div>
 <div class="clearfix nan-inline" >
-	<label>产品颜色</label>
+	<label>模板类型</label>
+	<select class="input wid_300" name='type'>
+		<option value='1' <if condition='$item["type"]==1'>selected</if>>中文模板</option>
+		<option value='2' <if condition='$item["type"]==2'>selected</if>>英文模板</option>
+		<option value='3' <if condition='$item["type"]==3'>selected</if>>商城模板</option>
+	</select>
+</div>
+<div class="clearfix nan-inline" >
+	<label>模板颜色</label>
 	<input type="text" name="color" value="<{$item.color}>" class="input nan-the-input wid_200"  />
 </div>
 <div class="clearfix nan-inline" >
