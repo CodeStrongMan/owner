@@ -89,88 +89,15 @@
 <div class="container">
     <div class="index_tem freeTem">
         <div class="tem_title clearfix"><span>免费PC网站</span>
-            <a href="#" class="more"></a>
+            <a href="<?php echo U('Product/index');?>" class="more"></a>
         </div>
-        <div class="filterMenu" >
-            <div>
-                <div class="volType volNor clearfix">
-                    <div class="voltit">网站类型:</div>
-                    <span class="on">全部</span>
-                    <span>中文网站</span>
-                    <span>英文网站</span>
-                    <span>商城网站</span>
-                </div>
-                <div class="volType volColor clearfix">
-                    <div class="voltit">网站颜色:</div>
-                    <span class="on">全部</span>
-                    <span class="volred">红色</span>
-                    <span class="volgrey">灰色</span>
-                    <span class="volwhite">白色</span>
-                    <span class="volblack">黑色</span>
-                    <span class="volpink">粉色</span>
-                    <span class="volpurple">紫色</span>
-                    <span class="volblue">蓝色</span>
-                    <span class="volgreen">绿色</span>
-                    <span class="volorange">橙色</span>
-                    <span class="colorful"><i>多</i><i>彩</i></span>
-                </div>
-                </div>
-                <div class="volType volSerach clearfix">
-                    <div class="voltit">定向搜索:</div>
-                    <div class="searchInput"><input type="text" placeholder="请输入行业关键词"></div>
-                    <div class="searchBtn"></div>
-                </div>
-            </div>
+       
         <div class="temBox">
             <ul class="clearfix">
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3f536988d5.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3fc63dab40.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3ff9a69920.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f400eae024f.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3f536988d5.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3fc63dab40.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3ff9a69920.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f400eae024f.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3f536988d5.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3fc63dab40.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f3ff9a69920.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
-                <li>
-                    <a class="webImg" href='#'><img src="/Public/Uploads/2015-03-02/54f400eae024f.jpg"></a>
-                    <div class="webType"><a href='#'>机电公司网站(宽屏)</a></div>
-                </li>
+            	<?php if(is_array($hotGoods)): foreach($hotGoods as $key=>$vo): ?><li>
+                    <a class="webImg" href='<?php echo U("Details/index",array("id"=>$vo["id"]));?>'><img src="<?php echo ($vo["img"]); ?>"></a>
+                    <div class="webType"><a href='<?php echo U("Details/index",array("id"=>$vo["id"]));?>'><?php echo ($vo["title"]); ?></a></div>
+                </li><?php endforeach; endif; ?>
             </ul>
         </div>
     </div>

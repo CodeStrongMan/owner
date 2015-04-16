@@ -356,14 +356,15 @@ behavior:url(../pie/PIE.htc);
 transition:all 0.3s ease;}
 .checkedMB .btnBox{margin-top:20px;}
 .checkedMB .btnBox > div{position: relative;float: left;overflow: hidden;}
-.checkedMB .btnBox input{margin-bottom:0;width: 125px;height: 40px;border: 0;margin-right: 10px;color: #fff;text-indent: 15px;text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
+.checkedMB .btnBox a{display:block;text-align:center;line-height:40px;margin-bottom:0;width: 125px;height: 40px;border: 0;margin-right: 10px;color: #fff;text-indent: 15px;text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
 -moz-border-radius:4px;
 -o-border-radius:4px;
 -ms-border-radius:4px;
 -webkit-border-radius:4px;
 border-radius:4px;
 behavior:url(../pie/PIE.htc)}
-.checkedMB .btnBox > div:last-child input{margin-right: 0;}
+.checkedMB .btnBox a:hover{text-decoration:none;}
+.checkedMB .btnBox > div:last-child a{margin-right: 0;}
 .checkedMB .btnBox i{position: absolute;top: 50%;margin-top: -7px;left: 15px;cursor: pointer;
 -webkit-transition:  all 0.2s ease-in-out;
 -moz-transition:  all 0.2s ease-in-out;
@@ -384,7 +385,7 @@ transform: scale(3.2);}
 -o-transform: scale(1);
 transform: scale(1);
 }
-.checkedMB .btnBox .preview input{
+.checkedMB .btnBox .preview a{
 background-color: #2674F1;
 background-image:-moz-linear-gradient(top,#43b3e5,#2674F1);
 background-image:-o-linear-gradient(top,#43b3e5,#2674F1);
@@ -394,7 +395,7 @@ background-image:linear-gradient(top,#43b3e5,#2674F1);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#0695D5,EndColorStr=#2674F1);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#0695D5,EndColorStr=#2674F1);
 }
-.checkedMB .btnBox .preview:hover input{
+.checkedMB .btnBox .preview:hover a{
 background-image:-moz-linear-gradient(top,#2674F1,#43b3e5);
 background-image:-o-linear-gradient(top,#2674F1,#43b3e5);
 background-image:-webkit-linear-gradient(top,#2674F1,#43b3e5);
@@ -403,7 +404,7 @@ background-image:linear-gradient(top,#2674F1,#43b3e5);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#2674F1,EndColorStr=#43b3e5);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#2674F1,EndColorStr=#43b3e5);
 }
-.checkedMB .btnBox .trial input{
+.checkedMB .btnBox .trial a{
 background-color:#53A621;
 background-image:-moz-linear-gradient(top,#7ed648,#53A621);
 background-image:-o-linear-gradient(top,#7ed648,#53A621);
@@ -413,7 +414,7 @@ background-image:linear-gradient(top,#7ed648,#53A621);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr#7ed648,EndColorStr=#53A621);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#7ed648,EndColorStr=#53A621);
 }
-.checkedMB .btnBox .trial:hover input{
+.checkedMB .btnBox .trial:hover a{
 background-image:-moz-linear-gradient(top,#53A621,#7ed648);
 background-image:-o-linear-gradient(top,#53A621,#7ed648);
 background-image:-webkit-linear-gradient(top,#53A621,#7ed648);
@@ -422,7 +423,7 @@ background-image:linear-gradient(top,#53A621,#7ed648);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#53A621,EndColorStr=#7ed648);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#53A621,EndColorStr=#7ed648);
 }
-.checkedMB .btnBox .setting input{
+.checkedMB .btnBox .setting a{
 background-color: #c62127;
 background-image:-moz-linear-gradient(top,#f05a48,#c62127);
 background-image:-o-linear-gradient(top,#f05a48,#c62127);
@@ -432,7 +433,7 @@ background-image:linear-gradient(top,#f05a48,#c62127);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#f05a48,EndCo-imagelorStr=#c62127);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#f05a48,EndColorStr=#c62127);
 }
-.checkedMB .btnBox .setting:hover input{
+.checkedMB .btnBox .setting:hover a{
 background-image:-moz-linear-gradient(top,#c62127,#f05a48);
 background-image:-o-linear-gradient(top,#c62127,#f05a48);
 background-image:-webkit-linear-gradient(top,#c62127,#f05a48);
@@ -441,7 +442,7 @@ background-image:linear-gradient(top,#c62127,#f05a48);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#c62127,EndColorStr=#f05a48);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#c62127,EndColorStr=#f05a48);
 }
-.checkedMB .btnBox .manage input{
+.checkedMB .btnBox .manage a{
 background-color: #ff6600;
 background-image:-moz-linear-gradient(top,#ea8a4b,#ff6600);
 background-image:-o-linear-gradient(top,#ea8a4b,#ff6600);
@@ -451,7 +452,7 @@ background-image:linear-gradient(top,#ea8a4b,#F60);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#ea8a4b,EndCo-imagelorStr=#ff6600);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#ea8a4b,EndColorStr=#ff6600);
 }
-.checkedMB .btnBox .manage:hover input{
+.checkedMB .btnBox .manage:hover a{
 background-image:-moz-linear-gradient(top,#ff6600,#ea8a4b);
 background-image:-o-linear-gradient(top,#ff6600,#ea8a4b);
 background-image:-webkit-linear-gradient(top,#ff6600,#ea8a4b);
