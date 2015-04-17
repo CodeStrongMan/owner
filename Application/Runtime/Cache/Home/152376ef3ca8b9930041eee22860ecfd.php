@@ -102,7 +102,7 @@ $.headerMove(248);
         <div class="checkedMB clearfix">
         	<div class="checkedImg">
                 <div class="imgBox">
-            	   <img src="<?php echo ($list["thumb_img"]); ?>">
+            	   <img src="<?php echo ($list["img"]); ?>">
                 </div>
             </div>
             <div class="checkedType">
@@ -134,22 +134,22 @@ $.headerMove(248);
                     <div class="preview">
                         <i class="icon-eye-open icon-white"></i>
                         <i class="icon-eye-open icon-white icon-transition"></i>
-                        <input type="button" value="在线预览" />
+                        <a href="<?php echo ($list["link"]); ?>" target="_blank">在线预览</a>
                     </div>  
                     <div class="manage">
                         <i class="icon-user icon-white"></i>
                         <i class="icon-user icon-white icon-transition"></i>
-                        <input type="button" value="后台预览" />
+                        <a href="#">后台预览</a>
                     </div>
                     <div class="trial">
                         <i class="icon-star icon-white"></i>
                         <i class="icon-star icon-white icon-transition"></i>
-                        <input type="button" value="试用体验" />
+                        <a href="#">试用体验</a>
                     </div>
                     <div class="setting">
                         <i class="icon-fire icon-white"></i>
                         <i class="icon-fire icon-white icon-transition"></i>
-                        <input type="button" value="免费建站" />
+                        <a href="#">免费建站</a>
                     </div>
                 </div>
             </div>
