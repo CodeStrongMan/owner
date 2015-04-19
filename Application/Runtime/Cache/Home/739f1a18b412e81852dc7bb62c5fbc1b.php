@@ -104,7 +104,8 @@ $.insideMove(1);
 		<table class="table money-table">
             <thead>
                 <tr>
-                    <th>银行</th>   
+                    <th>银行</th>  
+                    <th>名称</th>
                     <th>卡号</th>
                     <th>户名</th>
                     <th>开户行</th>
@@ -112,28 +113,68 @@ $.insideMove(1);
             </thead>
             <tbody>
                 <tr>
-                    <td height="50px"><div class="imgBox"><img src="/Public/site/img/images/zhifubao.png"/></div></td>
+                    <td height="50px">
+                        <div class="imgBox">
+                            <div class="imgTable"><img src="/Public/site/img/images/zhifubao.png"/></div>
+                        </div>
+                    </td>
                     <td>支付宝</td>
                     <td>13813575916</td>
                     <td>户名：郭鹏</td>
+                    <td>--</td>
                 </tr>
                 <tr>
-                    <td height="50px"><div class="imgBox"><img src="/Public/site/img/images/caifu.png"/></div></td>
+                    <td height="50px"><div class="imgBox">
+                        <div class="imgTable"><img src="/Public/site/img/images/caifu.png"/></div>
+                    </div>
+                    </td>
                     <td>财付通</td>
                     <td>511734447@qq.com</td>
                     <td>户名：郭鹏</td>
+                    <td>--</td>
                 </tr>
                 <tr>
-                    <td width="260px"><div class="imgBox"><img src="/Public/site/img/images/jianshe.png"/></div></td>
-                    <td>建设银行</td>
-                    <td>6236 6815 4000 1960 215</td>
+                    <td width="260px">
+                        <div class="imgBox">
+                            <div class="imgTable"><img src="/Public/site/img/images/jianshe.png"/></div>
+                        </div>
+                    </td>
+                    <td>中国建设银行</td>
+                    <td>6236 6812 6000 0353 862</td>
                     <td>户名：郭鹏</td>
+                    <td>常州清潭支行</td>
                 </tr>
                 <tr>
-                    <td width="260px"><div class="imgBox"><img src="/Public/site/img/images/gongshang.png"/></div></td>
-                    <td>工商银行</td>
-                    <td>6222 0212 0203 1376 032</td>
+                    <td width="260px"><div class="imgBox">
+                        <div class="imgTable"><img src="/Public/site/img/images/gongshang.png"/></div>
+                    </div>
+                    </td>
+                    <td>中国工商银行</td>
+                    <td>6212 2611 0500 1555 578</td>
                     <td>户名：郭鹏</td>
+                    <td>常州清潭支行</td>
+                </tr>
+                <tr>
+                    <td width="260px">
+                        <div class="imgBox">
+                            <div class="imgTable"><img src="/Public/site/img/jiaotong.png"/></div>
+                        </div>
+                    </td>
+                    <td>交通银行</td>
+                    <td>6222 6201 3000 2943 768</td>
+                    <td>户名：郭鹏</td>
+                    <td>常州清潭支行</td>
+                </tr>
+                <tr>
+                    <td width="260px">
+                        <div class="imgBox">
+                            <div class="imgTable"><img src="/Public/site/img/youzheng.png"/></div>
+                        </div>
+                    </td>
+                    <td>中国邮政银行</td>
+                    <td>6217 9930 0011 6040 547</td>
+                    <td>户名：郭鹏</td>
+                    <td>常州清潭支行</td>
                 </tr>
 			</tbody>
 		</table>
