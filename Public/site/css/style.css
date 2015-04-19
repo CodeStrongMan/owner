@@ -927,4 +927,5 @@ transition:all 1s;}
 .about-money .money-table thead{background: #E6E8EB;}
 .about-money .money-table th,.about-money .money-table td{text-align: center;vertical-align: middle;border:1px solid #ddd;}
 .about-money .money-table td .imgBox{width: 170px;height: 50px;border: 1px solid #ddd;text-align: center;margin: 0 auto;}
-.about-money .money-table td .imgBox img{width: 150px;margin-top: 5px;}
+.about-money .money-table td .imgBox .imgTable{height:50px;display:table-cell;vertical-align:middle;text-align:center;width:170px;}
+.about-money .money-table td .imgBox img{width: 150px;}
