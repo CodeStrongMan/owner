@@ -26,6 +26,7 @@
 <script>
 $(function(){
 $.insideMove(1);
+$.headerMove(248);
 })
 </script>
 
@@ -115,7 +116,7 @@ $.insideMove(1);
                 <tr>
                     <td height="50px">
                         <div class="imgBox">
-                            <div class="imgTable"><img src="/Public/site/img/images/zhifubao.png"/></div>
+                            <div class="imgTable"><img style="width:120px;" src="/Public/site/img/images/zhifubao.png"/></div>
                         </div>
                     </td>
                     <td>支付宝</td>
@@ -152,7 +153,7 @@ $.insideMove(1);
                     <td>中国工商银行</td>
                     <td>6212 2611 0500 1555 578</td>
                     <td>户名：郭鹏</td>
-                    <td>常州清潭支行</td>
+                    <td>常州清潭新村支行</td>
                 </tr>
                 <tr>
                     <td width="260px">
@@ -163,7 +164,7 @@ $.insideMove(1);
                     <td>交通银行</td>
                     <td>6222 6201 3000 2943 768</td>
                     <td>户名：郭鹏</td>
-                    <td>常州清潭支行</td>
+                    <td>常州清潭路支行</td>
                 </tr>
                 <tr>
                     <td width="260px">
