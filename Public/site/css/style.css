@@ -486,7 +486,8 @@ background-image:linear-gradient(top,#ff6600,#ea8a4b);
 filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#ff6600,EndCo-imagelorStr=#ea8a4b);
 -ms-filter:progid:DXImageTransform.Microsoft.Gradient( StartColorStr=#ff6600,EndColorStr=#ea8a4b);
 }
-.mbIntro .process .buy-btn{width:80px;height:30px;font-size:13px;margin-top:5px;}
+.mbIntro .process .buy-btn{width:80px;height:30px;font-size:13px;display: block;margin: 0 auto;margin-top:5px;line-height: 30px;text-align: center;}
+.mbIntro .process .buy-btn:hover{color: #fff;text-decoration: none;}
 .mbIntro .process{position: relative}
 .mbIntro .process .fuwuqi{position: absolute;top: 630px;left: 310px;width: 350px;}
 .mbIntro .process .yuming{position: absolute;top: 370px;left: 310px;width: 350px;}
@@ -696,7 +697,7 @@ behavior:url(../pie/PIE.htc);}
 .alert_QQservice .nav.nav-tabs{margin:0;}
 .alert_QQservice .content table td:first-child{font-size:15px;}
 .alert_QQservice .content #tab1{padding-bottom:35px;background:url(../img/qq_service.jpg) top right no-repeat;padding-top:35px;background-size:contain;}
-.alert_QQservice .content #tab2{padding-bottom:35px;padding-top:35px;background:url(../img/qq_service2.jpg) 197px -25px no-repeat;}
+.alert_QQservice .content #tab2{padding-bottom:35px;padding-top:35px;background:url(../img/qq_service2.jpg) 197px -55px no-repeat;}
 /****************************招聘*****************************/
 .joinus{background-color: #fff; background-image:url(../img/joinus_bg.gif);background-repeat:no-repeat;background-position:right 30px;padding-top:20px;padding: 0 50px;margin-top: 30px;}
 .joinus .intruduce{padding-top:80px;}

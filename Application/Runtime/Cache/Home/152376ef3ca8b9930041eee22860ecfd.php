@@ -178,7 +178,7 @@ $.headerMove(248);
             <div class="right">
                 <div class="step step_2">
                     <p>购买泡椒域名。
-                        <div><input class="yellow-btn buy-btn" type="button" value="前去购买"></div>
+                        <div><a class="yellow-btn buy-btn" href="http://www.pojiaoidc.com/services/domain/" target="_blank" rel="nofollow">前去购买</a></div>
                     </p>
                 </div>
             </div>
@@ -194,7 +194,7 @@ $.headerMove(248);
             <div class="right">
                 <div class="step step_2">
                     <p>购买泡椒服务器。
-                        <div><input class="yellow-btn buy-btn" type="button" value="前去购买"></div>
+                    <div><a href="http://www.pojiaoidc.com/services/webhosting/twhost.asp" target="_blank" rel="nofollow" class="yellow-btn buy-btn" href="#">前去购买</a></div>
                     </p>
                 </div>
             </div>
@@ -210,7 +210,7 @@ $.headerMove(248);
             <div class="right">
                 <div class="step step_2">
                     <p>泡椒提供免费网站安全检测维护，网站前台、后台的修改等服务。
-                        <div><input class="yellow-btn buy-btn" type="button" value="点击咨询"></div>
+                        <div><input class="yellow-btn buy-btn" type="button" onclick="alertBox()" value="点击咨询"></div>
                     </p>
                 </div>
             </div>
@@ -233,7 +233,7 @@ $.headerMove(248);
             </div>
             <div class="step step_1">
                 <p>建站申请人进行网站检测并验收网站。</p>
-                <div class="zixun"><input type="button" class="yellow-btn" value="咨询客服"></div>
+                <div class="zixun"><input onclick="alertBox()" type="button" class="yellow-btn" value="咨询客服"></div>
             </div>
             
         </div>                
@@ -245,7 +245,7 @@ $.headerMove(248);
 <!----------------------------------fixMenu-------------------------------------------------------->
 <div class="fixMenu">
 	<div class="menuBox">
-        <div class="onlineQQ fixBlock">
+        <div class="onlineQQ fixBlock" onclick="alertBox();">
         	<a style="cursor:pointer;" class="clearfix">
             	<img class="blockIcon" src="/Public/site/img/qqOnline.png">
             	<span class="blockTxt">在线咨询</span>
@@ -339,7 +339,7 @@ $.headerMove(248);
 <div class="alert_QQservice">
     <div class="QQservice_box">
         <div class="QQ_title">
-            <div class="service clearfix">客户服务中心<a class="closeA"></a></div>
+            <div class="service clearfix">客户服务中心<a class="closeA" onclick="closeBox()"></a></div>
         </div>
         <div class="content">
             <div class="tabbable">

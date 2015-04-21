@@ -319,7 +319,7 @@ $.insideMove(1);
         </div>
         <div class="title">
         	<span style="margin-left:170px;">选择泡椒————选择省心、放心、安心</span>
-        	<input id="click_consult" class="zixun btn-success btn" type="button" value="点击咨询"/>
+        	<input id="click_consult" onclick="alertBox()" class="zixun btn-success btn" type="button" value="点击咨询"/>
         </div>
 	</div>
 </div>
@@ -421,7 +421,7 @@ $.insideMove(1);
 <div class="alert_QQservice">
     <div class="QQservice_box">
         <div class="QQ_title">
-            <div class="service clearfix">客户服务中心<a class="closeA"></a></div>
+            <div class="service clearfix">客户服务中心<a class="closeA" onclick="closeBox()"></a></div>
         </div>
         <div class="content">
             <div class="tabbable">
