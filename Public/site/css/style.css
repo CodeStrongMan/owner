@@ -930,3 +930,23 @@ transition:all 1s;}
 .about-money .money-table td .imgBox{width: 170px;height: 50px;border: 1px solid #ddd;text-align: center;margin: 0 auto;}
 .about-money .money-table td .imgBox .imgTable{height:50px;display:table-cell;vertical-align:middle;text-align:center;width:170px;}
 .about-money .money-table td .imgBox img{width: 150px;}
+/*********************************试用弹层-免费建站弹层*******************************************/
+.alertShi{width: 460px;border: 4px solid #fff;position: fixed;left: 50%;margin-left: -250px;top: 0;padding: 20px;background:#fff url(../img/repair.png) top center no-repeat;min-height: 200px;z-index: 1001;}
+.alertShi .topClose{position: absolute;top:10px;right: 5px; width: 19px;height: 19px;background: url(../img/close.gif) 1px 1px no-repeat;cursor: pointer;}
+.alertShi .topClose:hover{background-position:1px -17px;}
+.alertShi .kaifa{font-size: 24px;color: #fff;margin: 34px 0 0 138px;}
+.alertShi .shenqing{font-size: 16px;margin:30px 0 0 138px;}
+.alertShi .qqBox{display: table-cell;height: 25px;vertical-align: middle;text-align: center;width: 480px;padding-top: 50px;}
+.alertShi .qqBox a{color: #333;text-decoration: none;margin-right: 20px;font-size: 13px;}
+.alertShi .qqBox img{margin-right: 5px;}
+.alertShi .qqBox a:hover{color: #d42828;}
+.alertJian{width: 500px;border: 4px solid #fff;position: fixed;left: 50%;margin-left: -250px;top: 0;background:#fff url(../img/jianzhan.png) top center no-repeat;height: 297px;z-index: 1001;}
+.alertJian .topClose{position: absolute;top:10px;right: 5px; width: 19px;height: 19px;background: url(../img/close.gif) 1px 1px no-repeat;cursor: pointer;}
+.alertJian .topClose:hover{background-position:1px -17px;}
+.alertJian table{margin: 80px 0 0 30px;}
+.alertJian table td{font-size: 13px;padding: 10px 0;vertical-align: middle;}
+.alertJian table .qqs{padding-top:30px;}
+.alertJian table .qqs a{color: #333;text-decoration: none;}
+.alertJian table .qqs a:hover{color: #d42828;}
+.alertJian table .qqs a:first-child{margin-right: 20px;}
+.alertJian table .qqs a img{margin-right: 10px;}

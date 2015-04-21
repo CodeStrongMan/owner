@@ -64,17 +64,17 @@
                     <div class="manage">
                         <i class="icon-user icon-white"></i>
                         <i class="icon-user icon-white icon-transition"></i>
-                        <a href="#">后台预览</a>
+                        <a href="javasript:;">后台预览</a>
                     </div>
-                    <div class="trial">
+                    <div class="trial" onclick="alertB('.alertShi')">
                         <i class="icon-star icon-white"></i>
                         <i class="icon-star icon-white icon-transition"></i>
-                        <a href="#">试用体验</a>
+                        <a href="javasript:;">试用体验</a>
                     </div>
-                    <div class="setting">
+                    <div class="setting" onclick="alertB('.alertJian')">
                         <i class="icon-fire icon-white"></i>
                         <i class="icon-fire icon-white icon-transition"></i>
-                        <a href="#">免费建站</a>
+                        <a href="javasript:;">免费建站</a>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,40 @@
     </div>
 </div>
 <!-------------------------------container---end----------------------------------------->
-
+<!-------------------------------试用体验弹层----------------------------------------->
+<div class="alertShi hide">
+    <div class="topClose" onclick="closeB('.alertShi')"></div>
+    <div class="kaifa">模块开发中，敬请期待...</div>
+    <div class="shenqing">请点击下方客服申请试用资格</div>
+    <div class="qqBox clearfix">
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=839899344&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/site/img/pa.gif">试用专员：小郭</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=511734447&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/site/img/pa.gif">试用专员：小郑</a>
+    </div>
+</div>
+<!-------------------------------免费建站弹层----------------------------------------->   
+<div class="alertJian hide">
+    <div class="topClose" onclick="closeB('.alertJian')"></div>  
+    <table>
+        <tr>
+            <td style="width:70px;">建站所需：</td>
+            <td>域名、服务器、前台网页、后台管理系统、技术支持...</td>
+        </tr>
+        <tr>
+            <td>泡椒提供</td>
+            <td>免费网站、免费后台管理系统、免费技术建设、免费后期维护...</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-weight:bold;">马上申请免费建站,请联系下方客服专员。
+            </td>
+        </tr>
+        <tr>
+            <td class="qqs" colspan="2">
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=511734447&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/site/img/pa.gif">试用专员：小郑</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=839899344&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/site/img/pa.gif">试用专员：小郭</a>
+            </td>
+        </tr>
+    </table>
+</div>
 </block>
 <block name='javascript'>
 <script>
