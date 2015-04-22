@@ -59,7 +59,7 @@ var ajaxpage = function(obj){
 		var the_load = layer.load(30,1);
 		var data = 'code='+the_code+'&type='+the_type+'&color='+the_color+'&keywords='+keywords;
 		$.post(url,data,function(data,status){
-			//alert(data)
+
 			$.getScript("/Public/site/js/selectivizr-min.js");
 			ETlist(data['list'],'#nan-list','#theTemplate',0);
 			$("#pagebar").html(data['page']);
@@ -73,18 +73,11 @@ var onall = function(){
 	var hrefUrl =  '<?php echo U("/Product/index");?>';
 	location.href = hrefUrl;
 }
-/*
-var onsel = function(obj){
-	the_code = $('.tradeHeight').find('span[class="on"]').attr('data-code');
-	the_color =$('.volColor .on').attr('data-color');
 
-	//console.log(the_color);
-	alert(the_color);
-	ajaxpage();
-}*/
 $(function(){
 	$('.volNor').find('span').click(function(){
 		the_type = $(this).attr('data-type');
+
 		ajaxpage();
 	})	
 	$('.volColor').find('span').click(function(){
