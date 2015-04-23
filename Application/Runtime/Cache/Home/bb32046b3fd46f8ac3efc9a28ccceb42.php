@@ -327,7 +327,7 @@ $.insideMove(1);
 <!----------------------------------fixMenu-------------------------------------------------------->
 <div class="fixMenu">
 	<div class="menuBox">
-        <div class="onlineQQ fixBlock">
+        <div class="onlineQQ fixBlock" onclick="alertBox();">
         	<a style="cursor:pointer;" class="clearfix">
             	<img class="blockIcon" src="/Public/site/img/qqOnline.png">
             	<span class="blockTxt">在线咨询</span>

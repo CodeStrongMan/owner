@@ -139,7 +139,7 @@ $.headerMove(248);
                     <div class="manage">
                         <i class="icon-user icon-white"></i>
                         <i class="icon-user icon-white icon-transition"></i>
-                        <a href="javasript:;">后台预览</a>
+                        <a href="http://zhenghaonan.cn/admin.php" rel='nofollow'>后台预览</a>
                     </div>
                     <div class="trial" onclick="alertB('.alertShi')">
                         <i class="icon-star icon-white"></i>
@@ -268,8 +268,8 @@ $.headerMove(248);
         </tr>
         <tr>
             <td class="qqs" colspan="2">
-                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=511734447&amp;site=qq&amp;menu=yes"><img src="/Public/site/img/pa.gif">试用专员：小郑</a>
-                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=839899344&amp;site=qq&amp;menu=yes"><img src="/Public/site/img/pa.gif">试用专员：小郭</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=511734447&amp;site=qq&amp;menu=yes"><img src="/Public/site/img/pa.gif">建站专员：小郑</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=839899344&amp;site=qq&amp;menu=yes"><img src="/Public/site/img/pa.gif">建站专员：小郭</a>
             </td>
         </tr>
     </table>

@@ -215,7 +215,7 @@ showMore();
 <!----------------------------------fixMenu-------------------------------------------------------->
 <div class="fixMenu">
 	<div class="menuBox">
-        <div class="onlineQQ fixBlock">
+        <div class="onlineQQ fixBlock" onclick="alertBox();">
         	<a style="cursor:pointer;" class="clearfix">
             	<img class="blockIcon" src="/Public/site/img/qqOnline.png">
             	<span class="blockTxt">在线咨询</span>
@@ -309,7 +309,7 @@ showMore();
 <div class="alert_QQservice">
     <div class="QQservice_box">
         <div class="QQ_title">
-            <div class="service clearfix">客户服务中心<a class="closeA"></a></div>
+            <div class="service clearfix">客户服务中心<a class="closeA" onclick="closeBox()"></a></div>
         </div>
         <div class="content">
             <div class="tabbable">
